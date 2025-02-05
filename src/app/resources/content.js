@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Talha",
+  lastName: "Faisal",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Building clarity in a chaotic world. One client at a time.",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,7 +29,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/TalhaFaisalglor",
   },
   {
     name: "LinkedIn",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "talhafaisalglor@gmail.com",
   },
 ];
 
@@ -52,18 +52,47 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: (
+    <>
+    <span style={{ fontSize: "3rem", fontWeight: "bold" }}>Documentation Architect.</span>
+    <br />
+    <span style={{ fontSize: "2rem", fontWeight: "600" }}>Content Strategist.</span>
+    <br />
+    <span style={{ fontSize: "1.5rem", fontWeight: "500", opacity: 0.8 }}>Purist.</span>
+  </>
+),
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I don't just write. I build. I manage. I execute.
+      <br />
+      <br />
+  
+      From technical documentation to social media strategy, from content writing to full-scale business operations, 
+      I've worked with hundreds of clients, handled over $1 million in transactions, and delivered results across industries.
+      <br />
+      <br />
+  
+      <strong>Need flawless documentation?</strong> Done.
+      <br />
+      <br />
+
+      <strong>Want social media that actually grows?</strong> I make that happen.
+      <br />
+      <br />
+
+      <strong>Need end-to-end content strategy, outsourcing, or business operations?</strong> I've got the network and the expertise.
+      <br />
+      <br />
+  
+      This isn't just my work. It's my craft.
     </>
   ),
 };
 
+
 const about = {
   label: "About",
-  title: "About me",
+  title: "About Us",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -81,9 +110,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am a documentation architect and business strategist, focused on turning complex information into structured, impactful resources. My expertise spans technical documentation, content strategy, and business operations, ensuring efficiency and scalability across industries. With a meticulous approach to clarity and organization, I create systems that enhance user experiences, streamline processes, and drive meaningful engagement.
       </>
     ),
   },

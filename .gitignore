@@ -1,1 +1,26 @@
+# Build & Output
+.next/
+.next/cache/
+.next/cache/webpack/
+.next/cache/webpack/server-development/
+.next/cache/webpack/server-development/*
+out/
+
+# Dependencies
 node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development
+.env.production
+app/resources/config.js
+app/resources/secrets.json
+
+# Logs & Debug Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
