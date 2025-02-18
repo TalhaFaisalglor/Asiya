@@ -6,9 +6,9 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Building clarity in a chaotic world. One client at a time.",
+  role: "Building clarity in a chaotic world.",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -17,8 +17,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts at the intersection of
+      creativity and technicality.
     </>
   ),
 };
@@ -58,7 +58,7 @@ const home = {
     <br />
     <span style={{ fontSize: "2rem", fontWeight: "600" }}>Content Strategist.</span>
     <br />
-    <span style={{ fontSize: "1.5rem", fontWeight: "500", opacity: 0.8 }}>Purist.</span>
+    <span style={{ fontSize: "1.5rem", fontWeight: "500", opacity: 0.8 }}>Project Management Specialist.</span>
   </>
 ),
   subline: (
@@ -92,7 +92,7 @@ const home = {
 
 const about = {
   label: "About",
-  title: "About Us",
+  title: "About",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -103,7 +103,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/talhafaisalglor-gmail.com/discovery",
   },
   intro: {
     display: true,
@@ -266,80 +266,30 @@ const work = {
 };
 
 const gallery = {
-  label: "Gallery",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
+  label: "Testimonals",
+  title: "Clients feedback",
+  description: `Clients reviews for ${person.name}`,
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "/images/gallery/testimonial-1.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-02.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-03.jpg",
+      src: "/images/gallery/testimonial-2.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
+      src: "/images/gallery/testimonial-3.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
+      src: "/images/gallery/testimonial-4.jpg",
       alt: "image",
       orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
-      orientation: "horizontal",
     },
   ],
 };
