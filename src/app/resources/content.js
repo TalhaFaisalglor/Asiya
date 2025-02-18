@@ -34,7 +34,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "talhafaisalglor@gmail.com",
+    link: "mailto:talhafaisalglor@gmail.com",
   },
 ];
 
@@ -115,104 +115,139 @@ const about = {
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Lumena Labs - Colorado, DEN",
+        timeframe: "August 2023 - Current",
+        role: "Technical Writer",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          <>Managed end-to-end documentation for Lumena Cloud, including user guides, API documentation, and release notes, ensuring clarity and accessibility for developers and users.</>,
+          <>Built a documentation platform using Eleventy, integrating detailed content for Lumena’s Spruce framework and maintaining consistency across all technical documents.</>,
+          <>Developed training modules (Katas) for Spruce framework developers, covering core concepts, best practices, and hands-on coding exercises.</>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Apexanalytix - Greensboro, NC",
+        timeframe: "Jan 2023 - July 2023",
+        role: "Technical Writer",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Created internal documentation for supplier management teams working with Fortune 500 clients, including IBM, Microsoft, and GE, streamlining their procurement and supply chain processes.</>,
+          <>Authored user guides, training manuals, FAQs, and knowledge base articles, improving operational efficiency and knowledge transfer within Apexanalytix.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "IDENTOS - Toronto, ON",
+        timeframe: "Aug 2022 - May 2023",
+        role: "Technical Writer",
+        achievements: [
+          <>Developed and maintained developer documentation for IDENTOS’s digital identity and access management solutions, collaborating closely with product teams.</>,
+          <>Led the creation of the FPX User-to-User Delegation guide, including detailed instructions, code samples, and diagrams to assist developers in implementing delegation workflows.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Postman - San Francisco, CA",
+        timeframe: "Dec 2022 - Feb 2023",
+        role: "Content Developer",
+        achievements: [
+          <>Authored technical content including API documentation, user guides, and whitepapers, enhancing the Postman learning experience for developers and API consumers.</>,
+          <>Developed training modules covering Postman’s advanced features, API testing, and collaboration tools, ensuring comprehensive coverage for users at all levels.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Pitcher AG - Zurich, CH",
+        timeframe: "Feb 2019 - Oct 2022",
+        role: "Lead Technical Writer",
+        achievements: [
+          <>Managed a team of technical writers to produce high-quality documentation for Pitcher’s sales enablement platform, serving global clients such as Johnson & Johnson, Danone, and Abbott.</>,
+          <>Produced user guides, API references, and troubleshooting manuals for Pitcher's mobile and web applications, ensuring users had clear, concise support materials.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Diesel Laptops LLC - Irmo, SC",
+        timeframe: "March 2017 - June 2019",
+        role: "Technical Writer",
+        achievements: [
+          <>Developed comprehensive troubleshooting guides and product manuals for diesel diagnostic tools, collaborating with engineers to ensure technical accuracy.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Saving for College - Miami, FL",
+        timeframe: "2016 - 2018",
+        role: "Lead Content Writer (Part-Time)",
+        achievements: [
+          <>Led content strategy and development for Google Workspace tutorials, creating engaging video scripts, blog posts, and user guides that simplified complex tools for a broad audience.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Hoistup - New York, NY",
+        timeframe: "2015 - 2016",
+        role: "Technical Writer (Contract-Based)",
+        achievements: [
+          <>Created a comprehensive 144-lesson training program for painting contractors, covering business management, client relations, and service delivery.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "AutomationStop/DoSupply - Raleigh, NC",
+        timeframe: "2014 - 2015",
+        role: "Technical Writer (Contract-Based)",
+        achievements: [
+          <>Developed detailed product documentation for industrial automation equipment, including user manuals, technical specifications, and installation guides.</>,
         ],
         images: [],
       },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "NUML",
+        description: <>Bachelor's in Mass Communication.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Arizona State University",
+        description: <>Micro Bachelor's in Technical Writing.</>,
+      },
+      {
+        name: "Google Digital Garage",
+        description: <>Certification in Digital Marketing and Content Strategy.</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Technical Skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Technical Documentation Tools",
+        description: <>Proficient in Docusaurus, Jekyll, Gatsby, Eleventy, GitBook, and other documentation platforms.</>,
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Web Development & Content Management",
+        description: <>Skilled in Next.js, Once UI, Markdown, Git, and headless CMS platforms for building and managing documentation sites.</>,
+        images: [],
+      },
+      {
+        title: "Content Strategy & Management",
+        description: <>Experienced in content planning, editorial workflows, and ensuring content consistency across large-scale projects.</>,
+        images: [],
       },
     ],
   },
 };
+  
 
 const blog = {
   label: "Blog",
